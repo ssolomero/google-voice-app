@@ -1,0 +1,130 @@
+body {
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+.headline {
+    margin-top: 48px;
+    h1 {font-weight: 400; font-size: 56px;}
+}
+.primary-btn {
+    color: white; background-color: teal; border: none;
+    height: 44px; padding: 0 32px; 
+    border-radius: 5px; box-shadow: 0px 2px 3px gray;
+    font-size: 14px;
+}
+.inline-btns {
+    margin-top: 32px;
+    .business-btn {margin-left: 48px;}
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 0.8px solid lightgray;
+
+    .header-item-left {
+        display: flex;
+        align-items: center;
+
+        .voice-icon {
+            width: 30px;
+            margin: 0 8px 0 20px;
+        }
+
+        span {
+            font-size: 22px;
+            color: gray;
+        }
+    }
+
+    .header-item-right {
+        display: flex; align-items: center;
+        .for-business {
+            margin-right: 24px;
+            font-size: 14px;
+            color: darkslategray;
+        }
+        .sign-in {
+            margin-right: 32px;
+            background-color: #1c72e8; color: white;
+            border-radius: 4px;
+            padding: 9px 24px;
+            font-size: 14px;
+            text-decoration: none;
+        }
+    }
+}
+
+.section {
+    margin: 88px 0px 138px;
+    h2 {margin-bottom: 20px;}
+    p {font-weight: 300;}
+}
+.alt-section {
+    background-color: ghostwhite;
+}
+
+.hero-section {
+    text-align: center;
+    padding-top: 100px;
+    margin: 0;
+    .voice-icon {width: 90px;}
+    .subtitle {
+        margin-top: 16px;
+        h3 {font-weight: 300; font-size: 24px;}
+    }
+    .hero-image {
+        margin: 88px 220px 0;
+    }
+}
+
+.stay-connected-section {
+    padding-top: 132px;
+    p {margin-bottom: 102px;}
+
+    .stay-connected-img-desktop {
+        padding:0 80px;
+        width: 1000px;
+    }
+}
+
+.feature-section {
+    margin-bottom: 0;
+    p {margin-bottom: 102px;}
+    .feature-img-desktop {
+        padding:0 80px;
+        width: 1000px;
+    }
+}
+
+.get-voice-section {
+    margin-top: 0;
+    padding: 90px 0;
+    .voice-icon {width: 90px;}
+}
+
+.footer {
+    margin:50px 0;
+}
+
+.welcome-headline {
+    text-align: left;
+    margin: 60px 345px 0;
+    h2 {font-weight: 400;}
+    .terms-conditions {
+        font-size: 12px;
+        margin-bottom: 32px;
+    }
+    .primary-btn {
+        height: 35px;
+        padding: 0 20px;
+        box-shadow: none;
+    }
+}
+
+.welcome-media {
+    background-color: #14b6ff;
+    margin-top: 50px;
+}
