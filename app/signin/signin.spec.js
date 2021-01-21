@@ -8,7 +8,7 @@ describe('google-voice-app.signin.signin module', function() {
 
     it('should ....', inject(function($controller) {
       //spec body
-      var signinCtrl = $controller('View2Ctrl');
+      var signinCtrl = $controller('SignInCtrl');
       expect(signinCtrl).toBeDefined();
     }));
 

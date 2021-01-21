@@ -3,15 +3,6 @@ body {
   text-align: center;
 }
 
-.headline {
-  margin-top: 48px;
-}
-
-.headline h1 {
-  font-weight: 400;
-  font-size: 56px;
-}
-
 .primary-btn {
   color: white;
   background-color: teal;
@@ -97,6 +88,11 @@ body {
 
 .section p {
   font-weight: 300;
+  margin: 0 41%;
+}
+
+.section .section-img {
+  max-width: 1000px;
 }
 
 .alt-section {
@@ -111,6 +107,15 @@ body {
 
 .hero-section .voice-icon {
   width: 90px;
+}
+
+.hero-section .headline {
+  margin-top: 48px;
+}
+
+.hero-section .headline h1 {
+  font-weight: 400;
+  font-size: 56px;
 }
 
 .hero-section .subtitle {
@@ -136,7 +141,6 @@ body {
 
 .stay-connected-section .stay-connected-img-desktop {
   padding: 0 80px;
-  width: 1000px;
 }
 
 .feature-section {
@@ -149,7 +153,6 @@ body {
 
 .feature-section .feature-img-desktop {
   padding: 0 80px;
-  width: 1000px;
 }
 
 .get-voice-section {
@@ -161,17 +164,29 @@ body {
   width: 90px;
 }
 
+.get-voice-section h2 {
+  font-size: 36px;
+  margin-top: 48px;
+}
+
 .footer {
-  margin: 50px 0;
+  margin: 50px auto;
+  padding: 0 50px;
 }
 
 .welcome-headline {
+  width: 750px;
   text-align: left;
-  margin: 60px 345px 0;
+  margin: 60px auto;
 }
 
 .welcome-headline h2 {
   font-weight: 400;
+}
+
+.welcome-headline p {
+  margin: initial;
+  margin-bottom: 32px;
 }
 
 .welcome-headline .terms-conditions {
@@ -189,5 +204,52 @@ body {
 .welcome-media {
   background-color: #14b6ff;
   margin-top: 50px;
+}
+
+@media (max-width: 576px) {
+  .inline-btns .primary-btn {
+    width: 170px;
+  }
+  .inline-btns .business-btn {
+    margin: 16px auto 0;
+    display: block;
+  }
+  .section h2 {
+    font-size: 20px;
+    padding: 0 20px;
+  }
+  .section p {
+    font-size: 15px;
+    padding: 0 20px;
+    margin: 0 0 48px;
+  }
+  .section .section-img {
+    max-width: 375px;
+  }
+  .hero-section .headline h1 {
+    font-size: 36px;
+  }
+  .hero-section .subtitle h3 {
+    font-size: 18px;
+  }
+  .hero-section .hero-image {
+    margin: 88px auto 0;
+    padding: 0 24px;
+  }
+  .get-voice-section h2 {
+    font-size: 36px;
+    margin-top: 48px;
+  }
+  .welcome-headline {
+    padding: 0 32px;
+    margin: 60px auto 0;
+  }
+  .welcome-headline h2, .welcome-headline p {
+    margin: initial;
+    padding: 0;
+  }
+  .welcome-media img {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=app.css.map */
